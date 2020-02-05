@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+}
+
+.logo {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.navLinks a:hover {
+    background-color: gray;
+}
+
+.modal-section {
+    display: none;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    background-color: white;
+    margin-left: 640px;
+    margin-top: 100px;
+}
+
+.modal-header h3, .modal-footer {
+    margin: 0;
+    font-size: 40px;
+    color: black;
+    font-weight: lighter;
+}
+
+.modal-header {
+    background-color: white;
+    padding: 15px 155px;
+    color: gray;
+}
+
+.modal-body {
+    padding: 20px 90px;
+}
+
+.modal-footer {
+    background-color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#loginButton , #closeButton{
+    color: white;
+    background-color: #f57842;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#loginButton {
+    margin-left: 110px;
+}
+
+.closeButton:hover, .closeButton:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+
+}
+
+#error-message1, #error-message2 {
+    color: red;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.section1 {
+    margin-top: 100px;
+}
+
+.section1 img {
+    width: 300px;
+    height: 190px;
+    margin-left: 180px;
+}
+
+.section2 {
+    margin-top: 100px;
+}
+
+.section2 img {
+    width: 170px;
+    height: 100px;
+}
+
+.section2 td {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 60px 0px;
+    color: white;
+}
